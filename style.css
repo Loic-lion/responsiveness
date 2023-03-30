@@ -1,0 +1,48 @@
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  body {
+    background-color: green;
+    font-size: medium;
+  }
+
+  .small {
+    display: none;
+  }
+  .medium {
+    display: inline;
+  }
+  .large {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  body {
+    background-color: red;
+    font-size: small;
+  }
+  .small {
+    display: inline;
+  }
+  .medium {
+    display: none;
+  }
+  .large {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: blue;
+    font-size: large;
+  }
+  .small {
+    display: none;
+  }
+  .medium {
+    display: none;
+  }
+  .large {
+    display: inline;
+  }
+}
