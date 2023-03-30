@@ -5,13 +5,16 @@
   }
 
   .small {
-    display: none;
+    /* display: none; */
+    width: 66%;
   }
   .medium {
-    display: inline;
+    /* display: inline; */
+    width: 33%;
   }
   .large {
-    display: none;
+    /* display: none; */
+    width: 100%;
   }
 }
 
@@ -21,13 +24,13 @@
     font-size: small;
   }
   .small {
-    display: inline;
+    /* display: inline; */
   }
   .medium {
-    display: none;
+    /* display: none; */
   }
   .large {
-    display: none;
+    /* display: none; */
   }
 }
 
@@ -37,12 +40,18 @@
     font-size: large;
   }
   .small {
-    display: none;
+    display: inline-block;
+    width: 33%;
+    /* display: none; */
   }
   .medium {
-    display: none;
+    display: inline-block;
+    width: 33%;
+    /* display: none; */
   }
   .large {
-    display: inline;
+    display: inline-block;
+    width: 33%;
+    /* display: inline; */
   }
 }
